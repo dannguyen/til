@@ -1,7 +1,16 @@
 .site-header{
     background: lavender;
-    margin-bottom: 2.0rem;
-    padding: 2.0rem 0;
+    margin-bottom: 1.5rem;
+
+    padding-bottom: 0.1rem;
+    padding-top: 0.3rem;
+
+    .site-title{
+        font-size: 1.3rem;
+        font-family: $font-family-display;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
 }
 
 

@@ -29,6 +29,11 @@ defaults:
       image: true
 
 
+collections:
+  posts:
+    output: true
+    permalink: /posts/:slug
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
