@@ -1,12 +1,17 @@
 ---
 layout: page
-title: About
+title: About Dan Nguyen and his TIL Blog
 permalink: /about/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Hi, my name is Dan and I'm a data journalist and programmer. My past work include teaching at Stanford and developing news apps at ProPublica. My main personal blog is at [blog.danwin.com](//blog.danwin.com), but I made this mini TIL blog because it seemed more fun and easy to maintain, and hopefully, it might be a useful resource for others and future me.
+
+
+Read [my first TIL post for more about how I got inspired]({{'/posts/first' | relative_url}}).
+
+
+Other places you can find me:
+
+- My personal site: [danwin.com](//danwin.com)
+- Github: [dansonguyen](//github.com/dannguyen)
+- Twitter: [@dancow](//twitter.com/dancow)

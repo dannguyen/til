@@ -3,6 +3,9 @@ layout: homepage
 permalink: /
 ---
 
+Read: [About me and my TIL blog]({{'/about' | relative_url }})
+
+
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente vitae, qui placeat sed impedit cupiditate nihil molestiae eaque deleniti reiciendis tempore aliquid quasi, mollitia eum expedita minus accusamus recusandae incidunt.
 
 
@@ -14,7 +17,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente vitae, qui pl
             <span class="created_at" datetime="{{ post.date | date: '%Y-%m-%d' }}">
                 [{{ post.date | date: '%Y-%m-%d' }}]
             </span>
-            <a href="{{ post.url }}" class="post-title">
+            <a href="{{ post.url | relative_url }}" class="post-title">
                     {{ post.title }}
             </a>
         </li>

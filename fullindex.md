@@ -16,15 +16,14 @@ permalink: /fullindex
             {{category}}
         </a>
     </h2>
-
+    <!--  -->
     <ul class="list-unstyled">
         {% for post in posts %}
           <li>
             <span class="created_at" datetime="{{ post.date | date: '%Y-%m-%d' }}">
                 [{{ post.date | date: '%Y-%m-%d' }}]
             </span>
-
-            <a href="{{ post.url }}">{{ post.title }} </a>
+            <a href="{{  post.url | relative_url  }}">{{ post.title }} </a>
           </li>
         {% endfor %}
     </ul>

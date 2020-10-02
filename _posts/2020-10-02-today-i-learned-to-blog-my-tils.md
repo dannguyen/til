@@ -3,6 +3,7 @@ layout: post
 title:  Today I learned I should blog my TILs
 date:   2020-10-02 15:13:41 -0500
 categories: meta
+permalink: /posts/first
 ---
 
 Today I [noticed](https://news.ycombinator.com/item?id=24659282) that the amazing [Simon Willison](https://simonwillison.net/) has a [TIL blog](https://til.simonwillison.net/), a little site for logging and organizing all the little things he's learned. He got the idea from [jbranchaud/til](https://github.com/jbranchaud/til) – who got the idea from [thoughtbot/til](https://github.com/thoughtbot/til)). 
@@ -15,6 +16,13 @@ I've been struggling with maintaining my long-running personal blog at [blog.dan
 So maybe a blog designed and focused on little TIL quips will help bridge the gap between tweets/informal diary jots and actual substantive blog posts. At the very least, I'm sure it'll be helpful to have a centralized site where I can remind myself of the tricks and concepts I've learned and later forgotten.
 
 And I need to freshen up my Jekyll and Liquid skills – I think that Jekyll is pretty much what I want for a static site framework these days. At least, for any kind of documentation that doesn't merit a [Sphinx setup](https://github.com/dannguyen/danssphinx-template).
+
+Here are some other TIL blog sites that I've found that look pretty neat:
+
+- [Stefan Judis](https://www.stefanjudis.com/today-i-learned/)
+- [Manuel Matuzovic](https://www.matuzo.at/til/)
+- [Brian Ambielli](https://bambielli.com/til/)
+- [Simon Woods](https://til.micro.blog/)
 
 
 Since this entry is all about how Willinson got me started on TIL blogging, here's some other stuff I've learned from Simon's wonderful open-source work:
