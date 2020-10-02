@@ -6,7 +6,7 @@
 Locally serve with livereload:
 
 ```sh
-bundle exec jekyll serve -l
+make serve
 ```
 
 

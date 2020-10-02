@@ -31,7 +31,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente vitae, qui pl
         {% assign slug = category | slugify %}
         <!-- {#% assign posts = cat.last %}     -->
         <li>
-            <a href="fullindex#{{ slug | relative_url }}">
+            <a href="{{ 'fullindex' | relative_url }}#{{slug}}">
                 {{ category }}
             </a>
         </li>

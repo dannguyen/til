@@ -7,8 +7,8 @@ title: TILs from Dan Nguyen
 email: dansonguyen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A little blog where I log the little things I've learned day to day, particularly in fields of data journalism and programming.
-# baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://dannguyen.github.io/til" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/til" # the subpath of your site, e.g. /blog
+url: "https://dannguyen.github.io/til"
 twitter_username: dancow
 github_username:  dannguyen
 

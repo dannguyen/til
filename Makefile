@@ -10,4 +10,4 @@ help:
 	bundle exec jekyll help
 
 serve:
-	bundle exec jekyll serve --livereload --port 10101 --strict_front_matter --trace
+	bundle exec jekyll serve --livereload --port 4567 --strict_front_matter --trace
