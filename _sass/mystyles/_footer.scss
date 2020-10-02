@@ -1,0 +1,24 @@
+.site-footer{
+    background: lavender;
+    margin-top: 2.0rem;
+    padding: 2.0rem 0;
+
+    a{
+        @include link-unstyled();
+    }
+
+
+    ul{
+        @include list-unstyled();
+    }
+
+    li{
+        .icon{
+            padding-right: 0.6em;
+        }
+    }
+
+
+}
+
+

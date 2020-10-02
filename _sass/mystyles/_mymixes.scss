@@ -1,0 +1,14 @@
+
+@mixin link-unstyled {
+    color: inherit !important;
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+
+@mixin medium-bold {
+  font-weight: 500;
+}

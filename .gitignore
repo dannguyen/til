@@ -1,0 +1,24 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+
+_drafts/
+junk/
+zunk/
+ZUNK/
+
+
+
+
+# OS stuff
+.DS_Store
+.Trashes
+.Spotlight-V100
+Thumbs.db
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class

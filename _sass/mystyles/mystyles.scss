@@ -1,0 +1,31 @@
+@import "mystyles/fonts";
+@import "mystyles/myvars";
+@import "mystyles/mymixes";
+
+@import "bootstrap/bootstrap";
+@import "font-awesome/scss/font-awesome";
+
+
+
+@import "mystyles/footer";
+@import "mystyles/header";
+
+@import "mystyles/pages/homepage";
+
+
+
+a.link-unstyled{
+  @include link-unstyled();
+}
+
+section.sec{
+    margin-bottom: 2.5rem;
+}
+
+.subhead{
+    @include medium-bold();
+    @include font-size($subhead-size);
+
+    color: lighten($headings-color, 15%);
+
+}

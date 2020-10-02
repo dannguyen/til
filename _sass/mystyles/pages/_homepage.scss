@@ -1,0 +1,11 @@
+body.homepage{
+    h1.site-title{
+        @include font-size($display3-size);
+        font-family: $font-family-display;
+    }
+
+    .banner{
+        padding-bottom: 1.0rem;
+        padding-top: 1.5rem;
+    }
+}
