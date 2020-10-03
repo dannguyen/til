@@ -33,6 +33,7 @@ collections:
   posts:
     output: true
     permalink: /posts/:slug
+    layout: post
 
 
 # Exclude from processing.

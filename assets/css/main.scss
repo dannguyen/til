@@ -4,3 +4,57 @@
 
 @charset "utf-8";
 @import "mystyles/mystyles";
+
+$fonts_dir: {{"/assets/fonts" | relative_url }};
+
+@font-face {
+    font-family: "Roboto";
+    src: url(#{$fonts_dir}/Roboto/Roboto-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(#{$fonts_dir}/Roboto/Roboto-Italic.ttf) format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url(#{$fonts_dir}/Roboto/Roboto-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(#{$fonts_dir}/Roboto/Roboto-MediumItalic.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url(#{$fonts_dir}/Roboto/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url(#{$fonts_dir}/Roboto/Roboto-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "Raleway";
+    src: url(#{$fonts_dir}/Raleway/Raleway-VariableFont_wght.ttf) format('truetype');
+    font-style: normal;
+}
