@@ -1,6 +1,6 @@
 ---
 title:  That I can use a SASS variable to denote a directory path for cleaner font declarations
-date:   2020-10-03 18:45:00 -0500
+date:   2020-10-02 18:45:00 -0500
 categories:
     - sass
 ---

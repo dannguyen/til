@@ -1,7 +1,6 @@
 ---
-layout: post
 title:  That Python has a mini-language for string formatting, including right-align (TK)
-date:   2020-10-02 15:15:00 -0500
+date:   2020-10-03 15:15:00 -0500
 categories:
     - python
 ---

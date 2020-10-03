@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Today I learned I should blog my TILs
 date:   2020-10-02 15:13:41 -0500
 categories: meta
