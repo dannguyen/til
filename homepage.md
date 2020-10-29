@@ -5,14 +5,16 @@ permalink: /
 
 Read: [About me and my TIL blog]({{'/about' | relative_url }})
 
+**Note:** This site is obviously a work-in-progress, especially anything that has `(TK)` in it!
+
 
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente vitae, qui placeat sed impedit cupiditate nihil molestiae eaque deleniti reiciendis tempore aliquid quasi, mollitia eum expedita minus accusamus recusandae incidunt.
 
 
 <section class="sec">
-    <h2>Recent posts</h2>
+    <h2>What I've recently learned</h2>
     <ul class="list-unstyled">
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts limit:5 %}
         <li>
             <span class="created_at" datetime="{{ post.date | date: '%Y-%m-%d' }}">
                 [{{ post.date | date: '%Y-%m-%d' }}]

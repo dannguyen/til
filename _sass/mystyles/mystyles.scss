@@ -1,14 +1,13 @@
 @import "mystyles/myvars";
 @import "mystyles/mymixes";
 
-@import "bootstrap/bootstrap";
-@import "font-awesome/scss/font-awesome";
+@import "vendor/bootstrap/bootstrap";
+@import "vendor/font-awesome/scss/font-awesome";
 
 
-
+@import "mystyles/code";
 @import "mystyles/footer";
 @import "mystyles/header";
-
 @import "mystyles/pages/homepage";
 
 
