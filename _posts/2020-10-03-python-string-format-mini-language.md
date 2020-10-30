@@ -1,13 +1,13 @@
 ---
-title:  That Python has a mini-language for string formatting, including right-align (TK)
+title:  That Python has a mini-language for string formatting, including right-align
 date:   2020-10-03 15:15:00 -0500
 categories:
     - python
+status: tk
 ---
 
-TKTK
 
-https://docs.python.org/3/library/string.html#format-specification-mini-language
+Relevant link from the Python docs: [`string` Format Specification Mini-Language](https://docs.python.org/3/library/string.html#format-specification-mini-language)
 
 
 When trying to muck with the Click HelpFormatter subclass, I noticed something in its [write_heading()](https://click.palletsprojects.com/en/7.x/api/#click.HelpFormatter.write_heading) method:

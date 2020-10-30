@@ -10,8 +10,13 @@ layout: base
 
     <div class="container">
         <h1 class="title page-title">
-            {{page.title}}
+            {{page.title}} {% if page.status == 'tk' %} (draft){% endif %}
         </h1>
+
+        <section class="sec description page-description">
+            {{page.description}}
+        </section>
+
         <section class="content">
             {{ content }}
         </section>

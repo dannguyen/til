@@ -3,6 +3,7 @@ layout: default
 ---
 
 
-<h2 class="page-title">{{title}}</h2>
+{% if page.status == 'tk' %} {% include tk_note.html %} {% endif %}
+
 
 {{content}}

@@ -3,6 +3,13 @@
 Just a personal list of things todo for this repo/project/blog
 
 
+## 2020-10-30
+
+- Added tk-status logic
+- fixed post/default layout inheritance (i.e. repeating headlines)
+- Right now, homepage lists all of my posts. In the future, I should create a link to the fullindex
+- post.html template should show tag links
+- homnepage.md should be homepage.html (though that creates naming confusion with layouts/homepage.html)
 
 ## 2020-10-03
 - Set a style for all `<img>` with a post/page's content body:

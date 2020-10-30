@@ -8,4 +8,14 @@ body.homepage{
         padding-bottom: 1.0rem;
         padding-top: 1.5rem;
     }
+
+
+    .list-posts{
+        .created_at{
+            color: $gray-600;
+            font-size: $font-size-base * 0.8;
+            padding-right: 0.3rem;
+            padding-bottom: 0.2rem;
+        }
+    }
 }

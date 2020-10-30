@@ -8,7 +8,15 @@ categories:
     - apis
 ---
 
-Tweeted [jokingly with Max Woolf about quality of repos vs. number of Github](https://twitter.com/dancow/status/1321853042338287620), and he mentioned something I hadn't known (or even bothered to investigate*) about Github's API: it not only provides the list of repos starred by a user, but also *when* each repo was starred. 
+<div class="alert alert-info tldr">
+  <strong>tl;dr:</strong> you can collect and wrangle your own starred repo data with this Python script I've written: <a href="https://gist.github.com/dannguyen/650cb0d8ca21db77f48f828fe2342d55">fetch_ghstars.py</a>
+</div>
+
+
+Made a [joke tweet to Max Woolf](https://twitter.com/dancow/status/1321853042338287620), re: how much a repo's quality/usefulness actually correlates with number of Github stars (Max maintains [minimaxir/big-list-of-naughty-strings repo](https://github.com/minimaxir/big-list-of-naughty-strings), an extravagantly starred repo that also happens to be extremely useful). And Max mentioned something about the Github API that I hadn't known nor bothered to investigate\*: You can fetch a list of all repos starred by a user, and that data will include *when* the user starred the repo. Just in case you wanted to analyze, say, how the languages you're interested in have changed over your programming career.
+
+
+
 
 (*I never bothered to check out Github's starred API for timestamps because I'm used to the way Twitter does things, i.e. providing you basically zero meta information about your [favorites](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/post-and-engage/api-reference/get-favorites-list), [followings](https://developer.twitter.com/en/docs/twitter-api/v1/accounts-and-users/follow-search-get-users/api-reference/get-friends-ids), and [bookmarks](https://apievangelist.com/2019/12/30/pulling-your-twitter-bookmarks-via-the-twitter-api/)*)
 

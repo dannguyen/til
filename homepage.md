@@ -11,13 +11,13 @@ Read: [About me and my TIL blog]({{'/about' | relative_url }})
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente vitae, qui placeat sed impedit cupiditate nihil molestiae eaque deleniti reiciendis tempore aliquid quasi, mollitia eum expedita minus accusamus recusandae incidunt.
 
 
-<section class="sec">
+<section class="sec recent-posts">
     <h2>What I've recently learned</h2>
-    <ul class="list-unstyled">
-    {% for post in site.posts limit:5 %}
-        <li>
+    <ul class="list-unstyled list-posts">
+    {% for post in site.posts limit:100 %}
+        <li class="item item-post">
             <span class="created_at" datetime="{{ post.date | date: '%Y-%m-%d' }}">
-                [{{ post.date | date: '%Y-%m-%d' }}]
+                {{ post.date | date: '%Y-%m-%d' }}
             </span>
             <a href="{{ post.url | relative_url }}" class="post-title">
                     {{ post.title }}

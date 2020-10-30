@@ -6,23 +6,14 @@ $font-size-base:              1.1rem !default; // Assumes the browser default, t
 
 $font-family-sans-serif: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-display: "Raleway", $font-family-sans-serif;
+$headings-font-family: $font-family-display;
+
 
 $headings-color:              #323232 !default;
-$headings-font-family: $font-family-sans-serif;
-
 
 $subhead-size:               1.2rem !default;
 
 
-// overwriting bootstrap/_variables.scss
-
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 880px,
-  xl: 992px
-) !default;
 
 // Grid containers
 //
@@ -31,6 +22,16 @@ $grid-breakpoints: (
 $container-max-widths: (
   sm: 540px,
   md: 720px,
-  lg: 850px,
-  xl: 960px
+  lg: 820px,
+  xl: 900px
 ) !default;
+
+// overwriting bootstrap/_variables.scss
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 850px,
+  xl: 950px
+) !default;
+
