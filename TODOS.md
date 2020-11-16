@@ -5,6 +5,7 @@ Just a personal list of things todo for this repo/project/blog
 
 ## 2020-11-16
 - added webbrowser opening to makefile
+- footer has proper links
 
 ## 2020-10-30
 
