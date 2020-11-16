@@ -8,10 +8,13 @@ categories:
     - apis
 ---
 
-<div class="alert alert-info tldr">
-  <strong>tl;dr:</strong> you can collect and wrangle your own starred repo data with this Python script I've written: <a href="https://gist.github.com/dannguyen/650cb0d8ca21db77f48f828fe2342d55">fetch_ghstars.py</a>
-</div>
 
+## tl;dr
+
+You can collect and wrangle your own starred repo data with this Python script I've written: <a href="https://gist.github.com/dannguyen/650cb0d8ca21db77f48f828fe2342d55">fetch_ghstars.py</a>
+
+ 
+## The context
 
 Made a [joke tweet to Max Woolf](https://twitter.com/dancow/status/1321853042338287620), re: how much a repo's quality/usefulness actually correlates with number of Github stars (Max maintains [minimaxir/big-list-of-naughty-strings repo](https://github.com/minimaxir/big-list-of-naughty-strings), an extravagantly starred repo that also happens to be extremely useful). And Max mentioned something about the Github API that I hadn't known nor bothered to investigate\*: You can fetch a list of all repos starred by a user, and that data will include *when* the user starred the repo. Just in case you wanted to analyze, say, how the languages you're interested in have changed over your programming career.
 

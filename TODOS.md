@@ -3,6 +3,9 @@
 Just a personal list of things todo for this repo/project/blog
 
 
+## 2020-11-16
+- added webbrowser opening to makefile
+
 ## 2020-10-30
 
 - Added tk-status logic
@@ -24,6 +27,20 @@ Just a personal list of things todo for this repo/project/blog
 
 # TILs
 
+
+- 2020-11-11: 
+    - learned how to use smartquotes_action sphinx config
+        - https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-smartquotes
+        - https://github.com/docutils-mirror/docutils/blob/master/docutils/utils/smartquotes.py
+        - smartquotes_action = "qe"
+    - ansi2html is what jsvine uses to embed attractive HTML display in his sphinx:
+        - https://jsvine.github.io/intro-to-visidata/
+        - https://github.com/pycontribs/ansi2html
+    - use str.casefold() and unicodedata.normalize (i.e. Unicode database) for bigger unicode normalization
+        - page 176 of Fluent Python
+        - https://docs.python.org/3/library/stdtypes.html#str.casefold
+        - https://docs.python.org/3/library/unicodedata.html
+        - 
 - [ ] Python: size = os.get_terminal_size()
 - [ ] Python: intermixed args: https://docs.python.org/dev/library/argparse.html#argparse.ArgumentParser.parse_intermixed_args
 - AWS: you can't let an IAM user have access to a limitedlist of buckets
